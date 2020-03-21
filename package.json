@@ -1,17 +1,16 @@
 {
   "name": "cordova-plugin-firebase-analytics",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "description": "Cordova plugin for Firebase Analytics",
   "cordova": {
     "id": "cordova-plugin-firebase-analytics",
     "platforms": [
-      "ios",
       "android"
     ]
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/chemerisuk/cordova-plugin-firebase-analytics.git"
+    "url": "git+https://github.com/alejandro-lopez/cordova-plugin-firebase-analytics.git"
   },
   "author": "Maksim Chemerisuk <chemerisuk@gmail.com> (https://github.com/chemerisuk)",
   "license": "MIT",
@@ -24,8 +23,7 @@
     "firebase",
     "analytics",
     "ecosystem:cordova",
-    "cordova-android",
-    "cordova-ios"
+    "cordova-android"
   ],
   "scripts": {
     "version": "replace -s 'version=\"(.+)(?=\">)' 'version=\"'$npm_package_version plugin.xml && git add plugin.xml",
